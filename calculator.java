@@ -10,9 +10,17 @@ public class calculator
          	int num3 = sc.nextInt();
 		int AdditionAnswer = Addition(num1 , num2 , num3);
 		System.out.println("Addition of Number is :"+ AdditionAnswer);
+		int SubstractionAnswer = Substraction(num1 , num2, num3);
+         	System.out.println("Substraction of Number is :"+ SubstractionAnswer);
 	}
+
 	private static int Addition(int n1 , int n2 , int n3)
     	{
 		return n1 + n2 + n3 ;
     	}
+	private static int Substraction(int n1 , int n2 , int n3)
+    	{
+		 return n1 - n2 - n3 ;
+    	}
+
 }
